@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+#jogador {
+   
+    position: absolute;
+    width: 20%;
+    height: 80%;
+    background: black;
+    left: 95%;
+    top: 12%;
+    transform: translate(-100%);
+    z-index: 1;
+}
+
+#maquina {
+    left: 5%;
+    position: absolute;
+    width: 20%;
+    height: 80%;
+    background: black;
+    top: 12%;
+    transform: rotate(180deg);
+    z-index: 1;
+}
+
+.result {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+
+    display: grid;
+    place-content: center;
+    z-index: 2;
+
+    /* opacity: 0;
+    visibility: hidden; */
+
+}
+
+ #result{
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    background: black;
+    margin-left: 50%;
+    top: 12%;
+    transform: translate(-50%);
+    text-align: center;
+    align-items: center;
+    z-index: 2;
+   
+ }
+ 
+ #resultMaquina, #resultJogador{
+    margin: 5%;
+    height: 30%;
+    width: 29%;
+    top: 50%;
+
+ }
+
+ #resultMaquina{
+    transform: rotate(180deg);
+ }
+
+#Jpedra:hover, #Jpapel:hover, #Jtesoura:hover {
+    opacity: 0.5;
+}
+
+button {
+    margin: 5%;
+    height: 28%;
+    width: 90%;
+    border: 0;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    color: white;
+
+}
+h2 {
+    color: white;
+}
