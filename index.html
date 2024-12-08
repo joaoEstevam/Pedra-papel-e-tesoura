@@ -19,10 +19,12 @@
     <div class="result">
         <div id="result">
             <h1>Resultado</h1>
-            <h2 id="resultado">aedfaefda</h2>
+            <h2 id="resultado">Empate</h2>
 
-            <input type="image" id="resultMaquina" src="">
-            <input type="image" id="resultJogador" src="">
+            <input type="image" id="resultMaquina" src="imgs/pedra.jpg">
+            <input type="image" id="resultJogador" src="imgs/pedra.jpg">
+
+            <button class="closed" onclick="esconder()">Sair</button>
             
         </div>
     </div>
@@ -30,9 +32,9 @@
     </div>
 
      <div class="jogada" id="jogador">
-        <td> <button id="Jpedra" onclick= "selectPlayer('pedra')" ><img id=imgPedra src="imgs/pedra.jpg" alt=""></button> </td>
-        <td> <button id="Jpapel" onclick= "selectPlayer('papel')" ><img id=imgPapel src="imgs/papel.jpg" alt=""></button> </td>
-        <td> <button id="Jtesoura" onclick= "selectPlayer('tesoura')" ><img id=imgTesoura src= "imgs/tesoura.jpg" alt=""></button></td>
+        <td> <button id="Jpedra" onclick= "start('pedra')" ><img id=imgPedra src="imgs/pedra.jpg" alt=""></button> </td>
+        <td> <button id="Jpapel" onclick= "start('papel')" ><img id=imgPapel src="imgs/papel.jpg" alt=""></button> </td>
+        <td> <button id="Jtesoura" onclick= "start('tesoura')" ><img id=imgTesoura src= "imgs/tesoura.jpg" alt=""></button></td>
         
     </div>
 </body>
